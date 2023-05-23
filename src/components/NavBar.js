@@ -8,13 +8,15 @@ function NavBar() {
         <Link to="/">Home</Link>
       </li>
       <li>
-        <Link to="/projects">Projects</Link>
+        <Link to="/photos">Photos</Link>
       </li>
       <li>
         <Link to="/about">About</Link>
       </li>
       <li>
-        <Link to="/contact" className="primary">Contact</Link>
+        <Link to="/contact" className="primary">
+          Contact
+        </Link>
       </li>
     </ul>
   );
